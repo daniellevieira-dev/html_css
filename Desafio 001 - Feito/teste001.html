@@ -5,6 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testes W3School</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+
+        h1 {
+            color: blueviolet;
+        }
+
+        h2 {
+            color: darkcyan;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Exemplos W3Schools</h1>
@@ -129,8 +143,61 @@
                 <p style="background-color: rgba(255, 99, 71, 0.5);">Acrescentando transparência na cor com rgba(255, 99, 71, 0.5)</p>
                 <p style="background-color: hsla(9, 100%, 64%, 0.5);">Acrescentando transparência na cor com hsla(9, 100%, 64%, 0.5)</p>
 
+                <h2>HTML Links - Hyperlinks</h2>
+                <p>Exemplo de links:</p>
+                <a href="https://www.youtube.com/">Clique aqui e vá para o Youtube</a>
+
+                <h3>HTML Links - The target Attribute</h3>
+
+                <p><a href="https://www.youtube.com/" target="_self">Este link do Youtube abre na mesma página deste site (_self)</a></p>
+                <p><a href="https://www.youtube.com/" target="_blank">Este link do Youtube abre em outra janela (_blank)</a></p>
+                <p><a href="https://www.youtube.com/" target="_parent">Este link do Youtube abre o documento no quadro pai (_parent)</a></p>
+                <p><a href="https://www.youtube.com/" target="_top">Este link do Youtube abre o documento em todo o corpo da janela (_top)</a></p>
+
+                <h3>Absolute URLs vs. Relative URLs</h3>
+
+                <p>Este é um exemplo de <a href="https://www.youtube.com/" target="_blank">link</a> absoluto, abre uma página externa</p>
+                <p>Este é um exemplo de <a href="pag002.html" target="_self">link</a> relativo, abre uma página do próprio site</p>
+
+                <h3>HTML Links - Use an Image as a Link</h3>
+
+                <p>Clique na imagem abaixo e vá para o Youtube</p>
+
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="https://www.apaulista.org.br/wp-content/uploads/2021/02/youtube-logo.png" alt="Logo do Youtube" width="100">
+                </a>
+
+                <h3>Link to an Email Address</h3>
+                <p>Clique <a href="mailto:danielleplvieira@gmail.com" target="_blank">aqui</a> para enviar um e-mail</p>
+
+                <h3>Button as a Link</h3>
+                <p>Clique no botão abaixo para ir para a página 002</p>
+                <button onclick="document.location='pag002.html'">Clique Aqui</button>
+
+                <h3>Link Titles</h3>
+
+                <p>Clique <a href="https://www.youtube.com/" title="Vá para o Youtube">aqui</a> para ir para o Youtube</p>
+
+                <h2>HTML Links - Different Colors</h2>
+
+                <h3>HTML Link Colors</h3>
+                <p>Por padrão, um link aparece nos navegadores da seguinte forma:</p>
+                <p>Um link não visitado está <u>sublinhado</u> e azul</p>
+                <p>Um link visitado é <u>sublinhado</u> e roxo</p>
+                <p>Um link ativo está <u>sublinhado</u> e vermelho</p>
+
+                <h4>Agora mudando os padrões com css</h4>
+                <p>Este <a href="https://www.instagram.com/" target="_blank">link</a> não visitado ficará verde e sem sublinhado (a:link)</p>
+                <p>Este <a href="https://www.youtube.com/" target="_blank">link</a> visitado será azul sem sublinhado (a:visited)</p>
+                <p>Este <a href="https://www.youtube.com/" target="_blank">link</a> ativo será amarelo e sublinhado (a:active)</p>
+                <p>Todos os <a href="https://www.youtube.com/" target="">links</a> ao passar o mouse, ficarão vermelho e sublinhado (a:hover)</p>
+
+                <h3 class="botao">Link Buttons</h3>
                 
 
+                <p>Um link também pode ser estilizado como um botão, usando CSS:</p>
+
+                <a href="pag002.html">Este é um link</a>
 
 
 

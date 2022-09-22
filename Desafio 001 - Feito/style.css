@@ -1,0 +1,42 @@
+h2 {
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+h3 {
+    font-family: cursive;
+    color: brown;
+}
+
+h1 {
+    border: 5px solid greenyellow;
+    padding: 50px;
+    margin: 50px;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
